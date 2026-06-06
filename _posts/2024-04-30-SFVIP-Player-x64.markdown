@@ -3,11 +3,11 @@ title:  "How to Install SFVIP Player on Windows 10/11."
 subtitle: "Windows"
 author: "Mr. Skorpz"
 avatar: "img/authors/Social-Avatar.png"
-image: "img/blog-post/sfvip/thumbnail.jpg"
+image: "img/blog-post/sfvip/How_to_install_sfvip.png"
 date:   2024-04-14 12:00:00
 ---
 
-<div style="text-align: center"><img src="img/blog-post/sfvip/post-img.jpg" width="250" height="250" /></div>
+<div style="text-align: center"><img src="img/blog-post/sfvip/thumbnail.jpg" width="250" height="250" /></div>
 
 **Installing SFVIP Player on Windows – A Beginner’s Guide.**
 
