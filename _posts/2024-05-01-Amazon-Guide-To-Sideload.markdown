@@ -4,7 +4,7 @@ subtitle: "Amazon"
 author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
 image: "img/blog-post/amazon/How_to_sideload_apps.png"
-date:   2026-06-06 12:00:00
+date:   2024-05-01 12:00:00
 ---
 
 <div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" width="250" height="250" /></div>
