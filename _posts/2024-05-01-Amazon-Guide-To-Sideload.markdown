@@ -35,6 +35,8 @@ Amazon recently updated their software to hide Developer Options by default. Don
 
 > **Pro Tip:** If you don't see the message, just keep clicking the select button until it appears!
 
+[⬆️ Back to Table of Contents](#markdown-toc)
+
 ---
 <div style="text-align: center"><img src="img/blog-post/amazon/dev-setup.gif" width="300" height="225" /></div>
 ---
@@ -47,6 +49,8 @@ Now that Developer Options is visible, we need to turn it on.
 3. Turn **ON** the setting for **ADB Debugging**.
 4. Select **Install Unknown Apps** (or **Apps from Unknown Sources**) and ensure it is turned **ON**.
 
+[⬆️ Back to Table of Contents](#markdown-toc)
+
 ---
 
 ### **Part 3: Install the Downloader App**
@@ -58,6 +62,8 @@ To actually download the files from the internet, we need an app called Download
 4. Look for the app with the bright orange background and a download arrow symbol.
 5. Click **Download** or **Get** to install it.
 6. Open the app and **Allow** it access to your photos, media, and files (it needs this to save the APK files!).
+
+[⬆️ Back to Table of Contents](#markdown-toc)
 
 ---
 <div style="text-align: center"><img src="img/blog-post/amazon/install-setup.gif" width="300" height="225" /></div>
@@ -75,6 +81,8 @@ Now let's get hands-on with the sideloading process using your newly installed D
 
 > **Important Note:** When the installation is finished, always click **Done** instead of Open, then click **Delete** on the Downloader prompt. This deletes the installation file to save precious storage space on your Firestick!
 
+[⬆️ Back to Table of Contents](#markdown-toc)
+
 ---
 <div style="text-align: center"><img src="img/blog-post/amazon/sideload-setup.gif" width="300" height="225" /></div>
 ---
@@ -83,6 +91,8 @@ Now let's get hands-on with the sideloading process using your newly installed D
 As you explore sideloading, always be mindful of your device's security:
 - **Trust your sources:** Only download APK files from reputable websites.
 - **Toggle Off (Optional):** For maximum security, you can go back and turn *Apps from Unknown Sources* OFF when you are not actively sideloading.
+
+[⬆️ Back to Table of Contents](#markdown-toc)
 
 ### **Conclusion**
 Congratulations! You've successfully prepared your Amazon Fire device for sideloading and mastered the Downloader tool. Enjoy the expanded app options and customization features. If you have any questions or want to share your experiences, feel free to leave a comment below. Happy sideloading!
