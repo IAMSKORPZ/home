@@ -3,7 +3,7 @@ title:  "A Beginner's Guide to Jailbreaking your Amazon Deivce."
 subtitle: "Amazon"
 author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
-image: "img/blog-post/amazon/thumbnail-img.jpg"
+image: "img/blog-post/amazon/How_to_sideload_apps.png"
 date:   2024-05-01 12:00:00
 ---
 

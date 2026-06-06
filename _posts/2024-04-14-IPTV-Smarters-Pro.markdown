@@ -3,7 +3,7 @@ title:  "How to Install IPTV Smarters on Firestick."
 subtitle: "Amazon"
 author: "Mr. Skorpz"
 avatar: "img/authors/Social-Avatar.png"
-image: "img/blog-post/smaters-pro/thumbnail.jpg"
+image: "img/blog-post/smaters-pro/How_to_sideload_smarters.png"
 date:   2024-04-14 12:00:00
 ---
 
