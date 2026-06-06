@@ -131,6 +131,15 @@ a:hover, a:focus {
 	height: 0;
 	margin: 2%;
 	padding-bottom: 20%;
+    /* My additions */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), var(--accent-glow);
 }
 
 .card__container {
@@ -147,15 +156,6 @@ a:hover, a:focus {
 .card__container--closed {
 	position: absolute;
 	overflow: hidden;
-    /* Moved from .card to avoid ghost shadow when opened */
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    transition: top 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card__container--closed:hover {
-    top: -10px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), var(--accent-glow);
 }
 
 .card__image {
@@ -252,6 +252,92 @@ a:hover, a:focus {
 	font-size: 1.5em;
 	padding: 0 0 1em 0;
     color: var(--text-primary);
+}
+
+/* Typography & Markdown formatting inside the post */
+.card__copy a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.card__copy a:hover {
+    color: #a78bfa;
+    border-bottom: 1px solid #a78bfa;
+}
+
+.card__copy ul, .card__copy ol {
+    padding-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+.card__copy li {
+    margin-bottom: 0.5em;
+}
+
+.card__copy ul li {
+    list-style-type: disc;
+    color: var(--text-primary);
+}
+
+.card__copy ul li::marker {
+    color: var(--accent-color);
+}
+
+.card__copy blockquote {
+    border-left: 4px solid var(--accent-color);
+    padding: 10px 20px;
+    margin: 1.5em 0;
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: 0 10px 10px 0;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.card__copy pre {
+    background: #020617;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 1.5em 0;
+}
+
+.card__copy code {
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #f8fafc;
+}
+
+.card__copy pre code {
+    background: transparent;
+    padding: 0;
+    color: #a78bfa;
+}
+
+/* Responsive Video Embeds */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 1.5em 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.video-wrapper iframe, .video-wrapper object, .video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .card__copy h1, .card__copy h2, .card__copy h3 {
