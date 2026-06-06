@@ -21,40 +21,17 @@ TiviMate IPTV features a premium user interface perfectly tailored for large TV 
 
 ---
 
-### **Part 1: Unhiding Developer Options (The 7-Click Trick)**
-Because TiviMate is not available in the official Amazon Appstore, we need to sideload it. First, we must unlock your Firestick's hidden developer settings.
+### **Part 1: Prepare your Device (Install Downloader)**
+Because TiviMate is not available in the official Amazon Appstore, you must "sideload" it using an app called **Downloader**. 
 
-1. From the Fire TV Home Screen, navigate to **Settings** (the gear icon).
-2. Select **My Fire TV** (or **Device & Software**).
-3. Click on **About**.
-4. Highlight your device name at the top (e.g., **Fire TV Stick 4K**).
-5. Press the center **Select** button on your remote **7 times quickly**. 
-6. You will see a notification saying *"No need, you are already a developer."*
+If you haven't already enabled Developer Options and installed the Downloader app, please follow our dedicated guide first before continuing:
+> [**A Beginner's Guide to Jailbreaking your Amazon Device**](https://iamskorpz.github.io/home/#/2024/05/01/Amazon-Guide-To-Sideload)
+
+Once you have the Downloader app installed and ready to go, continue to Part 2 below!
 
 ---
 
-### **Part 2: Enable Sideloading Permissions**
-Now that Developer Options are unlocked, let's enable sideloading.
-
-1. Press the **Back** button on your remote to return to the **My Fire TV** menu.
-2. Click on **Developer Options**.
-3. Turn **ON** the setting for **ADB Debugging**.
-4. Select **Install Unknown Apps** (or **Apps from Unknown Sources**) and turn it **ON**.
-
----
-
-### **Part 3: Install the Downloader App**
-To download TiviMate from the web, we need the Downloader tool.
-
-1. Press the **Home** button on your remote.
-2. Go to the **Find** or **Search** icon.
-3. Type in **"Downloader"** and select the app with the bright orange icon.
-4. Click **Download** or **Get** to install it.
-5. Open the app and click **Allow** when it asks for permission to access your files.
-
----
-
-### **Part 4: Installing TiviMate via Downloader**
+### **Part 2: Installing TiviMate via Downloader**
 With Downloader ready, getting TiviMate takes just seconds!
 
 1. Open the **Downloader** app.
@@ -68,7 +45,7 @@ With Downloader ready, getting TiviMate takes just seconds!
 
 ---
 
-### **Part 5: How to Setup TiviMate with Xtream Codes**
+### **Part 3: How to Setup TiviMate with Xtream Codes**
 After installing TiviMate, you need to integrate your IPTV service provider's details.
 
 1. Open the **TiviMate** app.
