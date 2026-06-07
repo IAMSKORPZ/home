@@ -190,6 +190,20 @@ a:hover, a:focus {
     color: #fff;
 }
 
+/* Back Button Override */
+.back-button {
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid var(--accent-color);
+    margin-top: 0;
+    padding: 10px 30px;
+}
+
+.back-button:hover {
+    background: var(--accent-color);
+    box-shadow: 0 10px 20px rgba(139, 92, 246, 0.4);
+}
+
 /* CARD structural logic */
 .card {
 	position: relative;

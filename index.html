@@ -42,48 +42,12 @@ layout: compress
                 <a href="https://whatsapp.com/channel/0029ValA1ZeDOQIfjf3cfQ3w" aria-label="WhatsApp" class="social-icon"><i class="fa fa-whatsapp fa-2x"></i></a>
                 <a href="https://www.instagram.com/skorpz_limited/?hl=en" aria-label="Instagram" class="social-icon"><i class="fa fa-instagram fa-2x"></i></a>
             </nav>
-            <a href="#explore" class="cta-button">Explore Guides</a>
+            <a href="guides.html" class="cta-button">Explore Guides</a>
         </div>
     </header>
-    <main class="content" id="explore">
+    <main class="content">
         <!-- trianglify pattern container -->
         <div class="pattern pattern--hidden"></div>
-        <!-- cards -->
-        <div class="wrapper">
-            {% for post in site.posts %}
-            <article class="card" data-id="{{ post.id }}">
-                <div class="card__container card__container--closed">
-                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
-                         preserveAspectRatio="xMidYMid slice">
-                        <defs>
-                            <clipPath id="{{ post.id }}-clip-path">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
-                            </clipPath>
-                        </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
-                               xlink:href="{{ post.image }}"></image>
-                    </svg>
-                    <div class="card__content">
-                        <i class="card__btn-close fa fa-times"></i>
-                        <div class="card__caption">
-                            <h2 class="card__title">{{ post.title }}</h2>
-                            <p class="card__subtitle">{{ post.subtitle }}</p>
-                        </div>
-                        <div class="card__copy">
-                            <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar }}" alt="Author Avatar"/>
-                                <span class="meta__author">{{ post.author }}</span>
-                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                            </div>
-                            {{ post.content }}
-                        </div>
-                    </div>
-                </div>
-            </article>
-            {% endfor %}
-            <!-- /cards -->
-        </div>
     </main>
     <!-- /container -->
 </div>
