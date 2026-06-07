@@ -1,0 +1,31 @@
+{
+  "configVersion": 1,
+  "refreshHours": 6,
+
+  "branding": {
+    "appName": "Watchio IPTV"
+  },
+
+  "backgrounds": {
+    "home": "",
+    "login": ""
+  },
+
+  "announcement": {
+    "enabled": true,
+    "title": "Welcome to Watchio IPTV",
+    "message": "Thank you for using Watchio IPTV."
+  },
+
+  "maintenance": {
+    "enabled": false,
+    "title": "Maintenance Mode",
+    "message": "The service is currently undergoing maintenance."
+  },
+
+  "about": {
+    "discord": "",
+    "website": "",
+    "support": ""
+  }
+}
