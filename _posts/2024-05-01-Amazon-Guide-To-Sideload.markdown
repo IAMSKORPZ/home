@@ -4,7 +4,7 @@ subtitle: "Amazon"
 author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
 image: "img/blog-post/amazon/How_to_sideload_apps.png"
-date:   2024-05-01 12:00:00
+date:   2026-06-07 12:00:00
 ---
 
 <div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" width="250" height="250" /></div>
@@ -12,11 +12,19 @@ date:   2024-05-01 12:00:00
 **Sideloading on the Amazon Fire Device – 2026 Updated Guide**
 
 ### **Table of Contents**
-* TOC
-{:toc}
+* [Introduction](#introduction)
+* [What is Sideloading?](#what-is-sideloading)
+* [Part 1: Unhiding Developer Options (The 7-Click Trick)](#part-1-unhiding-developer-options-the-7-click-trick)
+* [Part 2: Enable Sideloading Permissions](#part-2-enable-sideloading-permissions)
+* [Part 3: Install the Downloader App](#part-3-install-the-downloader-app)
+* [Part 4: How to Sideload an App](#part-4-how-to-sideload-an-app)
+* [Part 5: Sideloading BingieTV (New Features)](#part-5-sideloading-bingietv-new-features)
+* [Security Considerations](#security-considerations)
+* [Conclusion](#conclusion)
+<a id="markdown-toc"></a>
 
 ### **Introduction**
-Welcome to our blog, where we'll guide you through the exciting world of sideloading apps onto your Amazon Fire device. By the end of this comprehensive guide, you'll know exactly how to install third-party apps like TiviMate Pro, Cinema HD, and more!
+Welcome to our blog, where we'll guide you through the exciting world of sideloading apps onto your Amazon Fire device. By the end of this comprehensive guide, you'll know exactly how to install third-party apps like **BingieTV**, TiviMate Pro, Cinema HD, and more!
 
 ### **What is Sideloading?**
 Sideloading simply involves installing applications from sources other than the official Amazon Appstore. This process grants you access to a massive range of apps, advanced customization options, and unlocks the full potential of your Amazon Fire device.
@@ -35,8 +43,6 @@ Amazon recently updated their software to hide Developer Options by default. Don
 
 > **Pro Tip:** If you don't see the message, just keep clicking the select button until it appears!
 
-[⬆️ Back to Table of Contents](#markdown-toc)
-
 ---
 <div style="text-align: center"><img src="img/blog-post/amazon/dev-setup.gif" width="300" height="225" /></div>
 ---
@@ -49,8 +55,6 @@ Now that Developer Options is visible, we need to turn it on.
 3. Turn **ON** the setting for **ADB Debugging**.
 4. Select **Install Unknown Apps** (or **Apps from Unknown Sources**) and ensure it is turned **ON**.
 
-[⬆️ Back to Table of Contents](#markdown-toc)
-
 ---
 
 ### **Part 3: Install the Downloader App**
@@ -62,8 +66,6 @@ To actually download the files from the internet, we need an app called Download
 4. Look for the app with the bright orange background and a download arrow symbol.
 5. Click **Download** or **Get** to install it.
 6. Open the app and **Allow** it access to your photos, media, and files (it needs this to save the APK files!).
-
-[⬆️ Back to Table of Contents](#markdown-toc)
 
 ---
 <div style="text-align: center"><img src="img/blog-post/amazon/install-setup.gif" width="300" height="225" /></div>
@@ -81,10 +83,21 @@ Now let's get hands-on with the sideloading process using your newly installed D
 
 > **Important Note:** When the installation is finished, always click **Done** instead of Open, then click **Delete** on the Downloader prompt. This deletes the installation file to save precious storage space on your Firestick!
 
-[⬆️ Back to Table of Contents](#markdown-toc)
-
 ---
 <div style="text-align: center"><img src="img/blog-post/amazon/sideload-setup.gif" width="300" height="225" /></div>
+---
+
+### **Part 5: Sideloading BingieTV (New Features)**
+Now that you know how to sideload, it's the perfect time to install **BingieTV**! It’s a free, open-source, and lightweight IPTV player packed with premium features. Here is what makes the latest update amazing:
+
+*   **Xtream Codes API & M3U/M3U8 Support:** Easily import and play your favorite playlists.
+*   **Live TV, Movies & Series:** Stream all your content with full support.
+*   **Continue Watching & Auto Play Next:** Automatically resume where you left off and transition seamlessly between episodes.
+*   **Global Search & Watch History:** Easily find what you want and keep track of what you've watched.
+*   **Favorites & Customization:** Save your favorite content, choose your preferred video/audio/subtitle tracks (with memory support), and customize subtitle appearance.
+*   **Multi-language Support:** Enjoy the app in over 10 languages!
+*   **Cross-platform:** Available not just on Android/Fire TV, but also iOS, Web, Windows, macOS, and Linux!
+
 ---
 
 ### **Security Considerations**
@@ -92,7 +105,10 @@ As you explore sideloading, always be mindful of your device's security:
 - **Trust your sources:** Only download APK files from reputable websites.
 - **Toggle Off (Optional):** For maximum security, you can go back and turn *Apps from Unknown Sources* OFF when you are not actively sideloading.
 
-[⬆️ Back to Table of Contents](#markdown-toc)
-
 ### **Conclusion**
 Congratulations! You've successfully prepared your Amazon Fire device for sideloading and mastered the Downloader tool. Enjoy the expanded app options and customization features. If you have any questions or want to share your experiences, feel free to leave a comment below. Happy sideloading!
+
+<!-- Floating Back to Top Button -->
+<a href="#markdown-toc" style="position: fixed; bottom: 30px; right: 30px; background-color: #ff9900; color: white; padding: 12px 18px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.3); z-index: 9999;">
+  ⬆️ Top
+</a>
