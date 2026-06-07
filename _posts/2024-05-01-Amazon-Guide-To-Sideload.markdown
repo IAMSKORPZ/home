@@ -7,7 +7,7 @@ image: "img/blog-post/amazon/How_to_sideload_apps.png"
 date:   2026-06-07 12:00:00
 ---
 
-<div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" width="250" height="250" /></div>
+<div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" style="width: 100%; max-width: 250px; height: auto;" /></div>
 
 **Sideloading on the Amazon Fire Device – 2026 Updated Guide**
 
@@ -44,7 +44,7 @@ Amazon recently updated their software to hide Developer Options by default. Don
 > **Pro Tip:** If you don't see the message, just keep clicking the select button until it appears!
 
 ---
-<div style="text-align: center"><img src="img/blog-post/amazon/dev-setup.gif" width="300" height="225" /></div>
+<div style="text-align: center"><img src="img/blog-post/amazon/dev-setup.gif" style="width: 100%; max-width: 300px; height: auto;" /></div>
 ---
 
 ### **Part 2: Enable Sideloading Permissions**
@@ -68,7 +68,7 @@ To actually download the files from the internet, we need an app called Download
 6. Open the app and **Allow** it access to your photos, media, and files (it needs this to save the APK files!).
 
 ---
-<div style="text-align: center"><img src="img/blog-post/amazon/install-setup.gif" width="300" height="225" /></div>
+<div style="text-align: center"><img src="img/blog-post/amazon/install-setup.gif" style="width: 100%; max-width: 300px; height: auto;" /></div>
 ---
 
 ### **Part 4: How to Sideload an App**
@@ -84,7 +84,7 @@ Now let's get hands-on with the sideloading process using your newly installed D
 > **Important Note:** When the installation is finished, always click **Done** instead of Open, then click **Delete** on the Downloader prompt. This deletes the installation file to save precious storage space on your Firestick!
 
 ---
-<div style="text-align: center"><img src="img/blog-post/amazon/sideload-setup.gif" width="300" height="225" /></div>
+<div style="text-align: center"><img src="img/blog-post/amazon/sideload-setup.gif" style="width: 100%; max-width: 300px; height: auto;" /></div>
 ---
 
 ### **Part 5: Sideloading BingieTV (New Features)**
