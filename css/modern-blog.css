@@ -24,6 +24,10 @@
 	clear: both;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	font-family: var(--font-family);
 	line-height: 1.6;
@@ -31,7 +35,7 @@ body {
 	background: var(--bg-color);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow: hidden;
+	overflow-x: hidden;
 	overflow-y: scroll;
 }
 
@@ -62,10 +66,15 @@ a:hover, a:focus {
 .hero {
     position: relative;
     text-align: center;
-    padding: 6em 1em 4em;
+    padding: 2em 1em;
     max-width: 800px;
     margin: 0 auto;
     z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Modern Glowing Background Orbs */
