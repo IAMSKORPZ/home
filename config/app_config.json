@@ -3,7 +3,7 @@
   "refreshHours": 6,
 
   "branding": {
-    "appName": "Watchio IPTV"
+    "appName": "Watchio "
   },
 
   "backgrounds": {
@@ -13,7 +13,7 @@
 
   "announcement": {
     "enabled": true,
-    "title": "Welcome to Watchio IPTV",
+    "title": "New Update!",
     "message": "Thank you for using Watchio IPTV."
   },
 
